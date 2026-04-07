@@ -1,4 +1,4 @@
-# Gemini Fast to Pro - Chrome Extension
+# no-fast-for-gemini
 
 A simple Chrome extension that automatically replaces all instances of "Gemini Fast" with "Gemini Pro" across the web.
 
@@ -16,7 +16,7 @@ A simple Chrome extension that automatically replaces all instances of "Gemini F
 1. Open Chrome and go to `chrome://extensions/`
 2. Enable "Developer mode" (toggle in top-right corner)
 3. Click "Load unpacked"
-4. Select this folder (`no-more-gemini-fast`)
+4. Select this folder (`no-fast-for-gemini`)
 5. The extension will now be active!
 
 ### To Package for Distribution:
@@ -45,7 +45,7 @@ To modify what gets replaced, edit `src/content.js`:
 
 ```javascript
 // Change this line:
-node.textContent = node.textContent.replace(/Gemini\s+Fast/gi, 'Gemini Pro');
+node.textContent = node.textContent.replace(/Gemini\s+Fast/gi, "Gemini Pro");
 
 // To replace different text. For example:
 // node.textContent = node.textContent.replace(/Fast/gi, 'Pro');
@@ -54,11 +54,13 @@ node.textContent = node.textContent.replace(/Gemini\s+Fast/gi, 'Gemini Pro');
 ## Troubleshooting
 
 **The extension isn't replacing text:**
+
 - Check that the extension is enabled in `chrome://extensions/`
 - Try reloading the page
 - Some websites have security restrictions that prevent content scripts from running
 
 **I want to disable it temporarily:**
+
 - Go to `chrome://extensions/` and toggle the extension off
 - Reload the page
 
