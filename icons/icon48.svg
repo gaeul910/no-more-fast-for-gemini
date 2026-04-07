@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <!-- Background -->
+  <rect width="48" height="48" fill="#6366f1" rx="8"/>
+  <!-- Gemstone shape -->
+  <polygon points="24,8 38,24 24,40 10,24" fill="#fbbf24"/>
+  <!-- Shine effect -->
+  <polygon points="24,8 32,16 24,20 16,16" fill="#fcd34d"/>
+</svg>

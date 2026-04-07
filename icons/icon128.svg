@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Background -->
+  <rect width="128" height="128" fill="#6366f1" rx="24"/>
+  <!-- Gemstone shape -->
+  <polygon points="64,20 100,64 64,108 28,64" fill="#fbbf24"/>
+  <!-- Shine effect -->
+  <polygon points="64,20 82,42 64,50 46,42" fill="#fcd34d"/>
+  <!-- Text indicator >G< for Gemini Pro -->
+  <text x="64" y="112" font-size="14" fill="white" text-anchor="middle" font-weight="bold" font-family="Arial">PRO</text>
+</svg>
